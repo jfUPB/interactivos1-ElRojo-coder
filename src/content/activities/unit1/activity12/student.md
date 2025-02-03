@@ -51,7 +51,6 @@ function connectBtnClick() {
 function sendButtonClick(letter) {
     port.write(letter);
 }
-```
 while True:
 
         data = uart.read(1)
@@ -72,5 +71,7 @@ while True:
             if data[0] == ord('D'):
                 display.show(Image.SURPRISED)
                 sleep(500)
+
+
 
 ```
