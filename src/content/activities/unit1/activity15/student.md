@@ -1,0 +1,2 @@
+esta unidad lo mas complejo con lo que me encontré fue el usar las funciones para que hagan generaciones de patrones o distancias no fueron tan complejas las actividades del cuadro y el circulo, encontré sencillo el uso del microbit para realizar acciones en pantalla o simulador 
+aprendí el uso de puertos, botones y acelerometro, me gustaria aprender el uso de microfono que este trae y el botón tactil 
