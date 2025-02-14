@@ -68,7 +68,7 @@ esa es el codigo de java para p5js
 
 ### codigo microbit
 
-```
+``` py
 from microbit import *
 
 # Configuramos la UART para la comunicación serial
