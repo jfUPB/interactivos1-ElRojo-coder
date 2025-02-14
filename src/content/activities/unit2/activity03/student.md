@@ -1,4 +1,4 @@
-## Actividad 2 
+## Actividad 3
 
 ### Entradas:
 #### Botón A (Pin 0):
@@ -32,10 +32,103 @@ Descripción: Los pines del micro:bit pueden emitir señales analógicas a trav�
 #### Conexión Bluetooth (Radio):
 
 Descripción: El micro:bit puede enviar y recibir datos de manera inalámbrica a través de Bluetooth. Puedes usar esta funcionalidad para enviar mensajes entre dispositivos o comunicarte con otros micro:bits, smartphones, etc. Es una salida de datos en forma de comunicación inalámbrica.
+### Funciones de entradas en MicroPython:
 
+#### 1 machine.Pin (Entrada Digital)
+ Esta función se utiliza para leer valores de pines digitales.
+Puedes configurar el pin como entrada y luego leer su estado (HIGH o LOW).
 
+Ejemplo:
 
+```python
+Copiar
+import machine
 
-![image](https://github.com/user-attachments/assets/b9f00b7a-8306-4f92-9b8b-9bdb5840a329)
+# Configuramos el pin 15 como entrada
+pin_entrada = machine.Pin(15, machine.Pin.IN)
 
+ # Leemos el estado del pin
+estado = pin_entrada.value()
 
+if estado == 1:
+    print("El pin está en estado alto")
+else:
+    print("El pin está en estado bajo")
+```
+
+#### 2 machine.ADC (Entrada Analógica)
+MicroPython permite leer señales analógicas mediante el convertidor analógico a digital (ADC). Puedes usar esta función para obtener valores entre 0 y 1023.
+
+Ejemplo:
+
+```python
+Copiar
+import machine
+
+# Configuramos el pin 34 como entrada analógica
+adc = machine.ADC(machine.Pin(34))
+
+# Leemos el valor analógico (0 a 1023)
+valor_analogico = adc.read()
+
+print("Valor leído desde el pin analógico:", valor_analogico)
+
+```
+#### 3 machine.I2C (Lectura por bus I2C)
+Esta función permite leer datos de sensores o dispositivos conectados a un bus I2C. Puedes configurarlo como maestro o esclavo.
+
+Ejemplo:
+
+```python
+Copiar
+import machine
+import time
+
+# Configuramos el bus I2C en los pines 21 (SDA) y 22 (SCL)
+i2c = machine.I2C(0, scl=machine.Pin(22), sda=machine.Pin(21))
+
+# Leemos los dispositivos conectados al bus I2C
+dispositivos = i2c.scan()
+print("Dispositivos en el bus I2C:", dispositivos)
+```
+
+### Funciones de salidas en MicroPython:
+
+#### 1 machine.Pin (Salida Digital)
+Similar a la entrada digital, pero configurada para enviar una señal de salida. Se utiliza para encender/apagar dispositivos como LEDs, relés, etc.
+
+Ejemplo:
+
+```python
+Copiar
+import machine
+import time
+
+# Configuramos el pin 16 como salida
+pin_salida = machine.Pin(16, machine.Pin.OUT)
+
+# Encendemos el pin (HIGH)
+pin_salida.value(1)
+time.sleep(1)
+
+# Apagamos el pin (LOW)
+pin_salida.value(0)
+```
+
+#### 2 machine.ADC (Entrada Analógica)
+MicroPython permite leer señales analógicas mediante el convertidor analógico a digital (ADC). Puedes usar esta función para obtener valores entre 0 y 1023.
+
+Ejemplo:
+
+```python
+Copiar
+import machine
+
+# Configuramos el pin 34 como entrada analógica
+adc = machine.ADC(machine.Pin(34))
+
+# Leemos el valor analógico (0 a 1023)
+valor_analogico = adc.read()
+
+print("Valor leído desde el pin analógico:", valor_analogico)
+```
