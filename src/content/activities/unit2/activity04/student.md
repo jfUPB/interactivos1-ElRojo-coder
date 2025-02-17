@@ -27,12 +27,12 @@ function setup() {
 }
 
 function draw() {
-    // Leer datos del puerto serial
+   
     if (port.availableBytes() > 0) {
         let dataRx = port.read(1);
 
         if (dataRx == 'B') {
-            // Cambiar a un color aleatorio cada vez que se presiona el botón B
+           
             currentColor = color(random(255), random(255), random(255));
         }
 
@@ -50,7 +50,7 @@ function draw() {
     }
 }
 
-// Función para conectar o desconectar el micro:bit
+
 function connectBtnClick() {
     if (!port.opened()) {
         port.open('MicroPython', 115200);  // Abrir puerto serial
@@ -59,7 +59,7 @@ function connectBtnClick() {
     }
 }
 
-// Función para enviar datos desde la interfaz
+
 function sendBtnClick() {
     port.write('h');  // Enviar un mensaje al micro:bit (puedes cambiar este valor)
 }
