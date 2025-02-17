@@ -25,7 +25,7 @@ function setup() {
 }
 
 function draw() {
-    // Aquí no es necesario dibujar nada más
+  
 }
 
 // Función para conectar o desconectar el micro:bit
@@ -33,11 +33,11 @@ function connectBtnClick() {
     if (!port.opened()) {
         port.open('MicroPython', 115200);  // Conecta al micro:bit
     } else {
-        port.close();  // Desconecta
+        port.close();  
     }
 }
 
-// Función para enviar la letra 'C' al micro:bit
+
 function sendBtnClick() {
     port.write('C');  // Envía 'C' al micro:bit para mostrar el corazón
 }
