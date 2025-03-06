@@ -1,3 +1,5 @@
+``` ph
+
 from microbit import *
 import music
 import utime
@@ -105,3 +107,4 @@ while True:
                 uart.write("¡Bomba explotó!\n")
                 display.show(Image.SKULL)
                 music.play(music.ENTERTAINER)
+```
