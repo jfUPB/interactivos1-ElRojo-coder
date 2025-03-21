@@ -2,4 +2,5 @@
 
 ### Díagrama 
 
-![image](https://github.com/user-attachments/assets/00bee0ae-b80d-4475-ab33-7e64220fdc02)
+![image](https://github.com/user-attachments/assets/f0e4faa3-c004-409e-9709-05f6efe68a0f)
+
