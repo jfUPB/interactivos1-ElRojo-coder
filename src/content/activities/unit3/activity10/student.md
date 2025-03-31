@@ -1,3 +1,5 @@
+## Actividad 10
+
 Escalabilidad, Concurrencia y Manejo de Eventos
 Claridad en el flujo de la aplicación: Al dividir la aplicación en estados bien definidos (CONFIG, ARMED, EXPLODED) y desencadenar acciones específicas mediante eventos (como “A”, “B”, “S”, “T”), se establece una arquitectura clara que facilita la identificación y el manejo de diferentes condiciones de ejecución.
 
