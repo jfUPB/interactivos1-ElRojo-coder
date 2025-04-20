@@ -59,8 +59,8 @@ port.availableBytes() devolverá 0 siempre, y readUntil() nunca leerá nada.
 5. ¿Qué sucede si el micro:bit no envía el “\n” al final del paquete?
 La línea:
 
-js
-```
+
+```js
 let data = port.readUntil("\n");
 ```
 espera hasta encontrar el caracter de fin de línea.
