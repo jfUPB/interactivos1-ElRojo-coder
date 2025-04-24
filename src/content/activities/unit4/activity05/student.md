@@ -238,7 +238,8 @@ function drawGrid() {
 #### Acción Botón A 
 Cambia al siguiente algoritmo: en este caso, se trata de un algoritmo de círculos intrínsecos que se generan según la inclinación. En su estado sin modificar, solo se ven dos.
 #### Ejemplo 
-![image](https://github.com/user-attachments/assets/2b3f1ba1-2067-4af2-a1cd-ac1deedb58cb
+![image](https://github.com/user-attachments/assets/8b2d09f7-13e7-468c-a53c-7a07a5cc4507)
+
 
 #### Como se ve en su estado mas alterado 
 ![image](https://github.com/user-attachments/assets/35754132-771d-4e0a-b255-50038e5daec0)
