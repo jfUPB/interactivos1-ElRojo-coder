@@ -1,0 +1,13 @@
+Como documentación inicial, debo decir que en un comienzo no me pareció tan complicado poner en funcionamiento las páginas. Seguí los pasos básicos con relativa facilidad y sentí que entendía el proceso general. Sin embargo, a medida que avancé por mi cuenta y traté de repetir los pasos sin ayuda, comenzaron a surgir varios obstáculos. Me costó bastante lograr que todo funcionara correctamente, especialmente porque era la primera vez que trabajaba con este tipo de plataformas y entornos de desarrollo.
+
+En los primeros intentos necesité el acompañamiento del profesor para poder entender cómo se conectaban las distintas partes del proyecto: las páginas, el código en Visual Studio Code, y la terminal. Una vez que empecé a repetir el proceso por mi cuenta, me encontré nuevamente con errores que no supe resolver de inmediato. A pesar de eso, perseveré, y finalmente logré que el sistema funcionara correctamente. Con eso, también empecé a comprender mejor cómo se integran las herramientas entre sí.
+
+Pude notar que la terminal tiene un rol fundamental, ya que permite visualizar cómo se ejecutan los archivos como comandos. También comprendí que al abrir Visual Studio Code puedo ver toda la estructura del proyecto, y cómo cada archivo de código cumple una función específica para que el sistema funcione como un todo.
+
+Cuando utilicé el comando install, entendí que lo que hace es descargar e integrar todos los paquetes y dependencias necesarias para que el proyecto corra correctamente. Por eso este paso solo debe hacerse una vez: los componentes quedan guardados en la carpeta del proyecto y no es necesario repetir el proceso.
+
+Al presionar start, la terminal mostró el mensaje > nodejs-test-1@1.0.0 start > node server.js, lo cual indica que el servidor ya está en ejecución. En ese momento, solo restaba abrir las páginas en el navegador para visualizar el resultado.
+
+Cuando abrí las páginas de forma individual, aparecieron los dos círculos como se esperaba. Al redimensionar las ventanas, pude ver cómo cada uno quedaba contenido en su propio espacio, lo que me hizo entender mejor la lógica de comunicación entre las ventanas. Además, la terminal mostró el mensaje connected cuando abrí las páginas, indicando que la conexión se había establecido correctamente. De la misma forma, al cerrarlas, se mostró disconnected, lo que confirmó que el sistema detecta activamente el estado de las conexiones.
+
+En resumen, aunque al inicio el proceso parecía sencillo, con el tiempo me enfrenté a desafíos que me exigieron atención y paciencia. No obstante, esa misma dificultad me permitió aprender más a fondo cómo funcionan estas herramientas, y tener una visión más clara del flujo de trabajo en proyectos que requieren múltiples componentes conectados.
