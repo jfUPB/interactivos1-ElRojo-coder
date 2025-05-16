@@ -21,11 +21,11 @@ Vinculando lo aprendido con mi interés por el arte, pienso que estas herramient
 Me gustaría seguir explorando el diseño generativo, pero con un enfoque más amplio, incluyendo audio. Me interesa aprender a crear sistemas donde lo visual y lo sonoro se desarrollen juntos, ya sea de forma sincronizada o a partir de reglas lógicas o aleatorias.
 
 ### Estado emocional durante la unidad:
-En general, me sentí motivada. Tuve una buena actitud hacia los contenidos y me interesó realmente aprender y cerrar la unidad con una comprensión sólida.
+En general, me sentí motivado. Tuve una buena actitud hacia los contenidos y me interesó realmente aprender y cerrar la unidad con una comprensión sólida.
 
 ### Motivación personal:
-Noté un aumento en mi motivación comparado con unidades anteriores. Siento que los temas fueron presentados de forma clara y conectaron bien con proyectos anteriores, lo que hizo más fácil mantenerme enfocada.
+Noté un aumento en mi motivación comparado con unidades anteriores. Siento que los temas fueron presentados de forma clara y conectaron bien con proyectos anteriores, lo que hizo más fácil mantenerme enfocado.
 
 ### Desempeño general:
-Creo que hice un buen trabajo. Tal vez no fue perfecto, pero puse un esfuerzo real por comprender los temas a fondo y avanzar con intención. Me siento satisfecha con el proceso que llevé.
+Creo que hice un buen trabajo. Tal vez no fue perfecto, pero puse un esfuerzo real por comprender los temas a fondo y avanzar con intención. Me siento satisfecho con el proceso que llevé.
 
