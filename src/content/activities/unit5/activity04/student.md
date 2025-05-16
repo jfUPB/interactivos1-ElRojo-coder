@@ -58,6 +58,20 @@ De manera similar, si era true y pasa a false, significa que el botón se acaba 
 
 https://openprocessing.org/sketch/751983
 
+### index.html
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/p5/lib/p5.min.js"></script>
+    <script src="https://unpkg.com/@gohai/p5.webserial@^1/libraries/p5.webserial.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
+```
 
 ```
 var blobs = [];
