@@ -7,13 +7,13 @@ El framing en el protocolo binario cumple una función similar a la del carácte
 Sin framing, el receptor no podría distinguir con certeza cuándo empieza o termina un paquete de datos, lo que causaría errores en la interpretación.
 
 ### ¿Cómo funciona el framing?
-El framing se implementa utilizando:
+#### El framing se implementa utilizando:
 
 Un carácter de sincronización (por ejemplo, 0xaa en hexadecimal) que señala el inicio de un paquete de datos. Es como una “alarma” que indica que se va a recibir información importante.
 
 Checksum: un valor que permite verificar la integridad del mensaje. Sirve para detectar errores comparando un valor calculado a partir de los datos recibidos con el valor enviado por el micro:bit.
 
-En la función readSerialData() del programa en p5.js:
+#### En la función readSerialData() del programa en p5.js:
 ### ¿Qué hace la función concat y por qué se utiliza?
 La función concat() une dos arreglos: el serialBuffer (que contiene datos previamente recibidos) y newData (los nuevos bytes que acaban de llegar). Esto se hace porque a veces los paquetes no llegan completos en una sola lectura. concat permite acumular los datos hasta que se tenga un paquete completo sin perder información.
 
